@@ -40,7 +40,7 @@ pip install tensorflow opencv-python matplotlib seaborn scikit-learn
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Backbone:** MobileNetV2 (pretrained on ImageNet)
 - **Classifier Head:**
@@ -51,7 +51,7 @@ pip install tensorflow opencv-python matplotlib seaborn scikit-learn
 
 ---
 
-## 🔄 Data Pipeline
+##  Data Pipeline
 
 - Images resized to **512x512**
 - RGB conversion and normalization (0-1)
@@ -63,7 +63,7 @@ pip install tensorflow opencv-python matplotlib seaborn scikit-learn
 
 ---
 
-## 🧪 Model Training
+##  Model Training
 
 - **Loss:** Categorical Crossentropy
 - **Optimizer:** Adam
@@ -80,7 +80,7 @@ history = model.fit(
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Accuracy:** 99.32% on test set
 - **Confusion Matrix** and **Classification Report** included
@@ -91,7 +91,7 @@ history = model.fit(
 
 ---
 
-## 📈 Example Results
+##  Example Results
 
 ```
 Classification Report:
@@ -104,7 +104,7 @@ Classification Report:
 
 ---
 
-## 🖼️ Visual Output
+##  Visual Output
 
 Sample prediction output:
 
@@ -126,7 +126,7 @@ model = load_model('/path/to/currency_note_model.h5')
 
 ---
 
-## 🔍 Predict on New Image
+##  Predict on New Image
 
 ```python
 predict_single_image('/path/to/note.jpg')
